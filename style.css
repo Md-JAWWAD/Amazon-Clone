@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav: rgb(35, 47, 62);
+  --search: rgba(255, 255, 255);
+  --navText: rgba(255, 255, 255);
+  --btn: #ff9900;
+  --borderclr: grey;
+}
+
+nav {
+  background-color: var(--nav);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--navText);
+  height: 3rem;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  display: block;
+  margin-left: 1rem;
+}
+
+input {
+  padding: 0.2rem;
+  width: 30rem;
+}
+
+.search {
+  background-color: var(--btn);
+  color: var(--nav);
+}
+
+button {
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  margin-left: 0.4rem;
+  background-color: var(--btn);
+  border: none;
+}
+
+.navlink a {
+  color: var(--navText);
+  text-decoration: none;
+  padding: 0 1.5rem 0 0;
+  font-size: larger;
+  font-weight: 200;
+  font-family: Arial, sans-serif;
+}
+
+.banner img {
+  width: 84.3rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  padding: 1.6rem;
+  color: var(--nav);
+  border: 1px var(--borderclr) solid;
+  margin: 2.5rem 1rem;
+  overflow-x: hidden;
+}
+
+.Product {
+  color: var(--nav);
+  padding: 1rem 0 1rem 2rem;
+}
+
+footer p {
+  font-family: Arial, sans-serif;
+  padding: 0.6rem;
+  color: var(--navText);
+  background-color: var(--nav);
+  text-align: center;
+}
